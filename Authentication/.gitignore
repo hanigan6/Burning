@@ -1,0 +1,11 @@
+# Authentication Ignore File #
+
+# VSCode #
+.vscode/
+
+# Source Files #
+src/*/[Bb]in
+src/*/[Oo]bj
+
+# Test Files #
+test/

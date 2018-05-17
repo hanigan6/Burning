@@ -1,0 +1,63 @@
+#header .swagger-ui-wrap {
+    display:none;
+}
+
+.swagger-section #header {
+    background-color: black;
+    color:white;
+}
+
+.swagger-section .swagger-ui-wrap h2 {
+    color: white;
+}
+
+.swagger-section .swagger-ui-wrap h2 a {
+    color: white;
+}
+
+/*csslint important:false*/
+/* ReSharper disable once CssBrowserCompatibility */
+.input input:first-of-type { /* Hides the json file input box.*/
+    display: none !important;
+}
+
+.info_title {
+    font-size: 22px !important;
+}
+
+/*csslint important:true*/
+
+
+.microservices-custom-Header {
+    max-width: 290px;
+    float: left;
+    color: white;
+}
+
+/* ReSharper disable CssBrowserCompatibility */
+.microservices-custom-Header span:first-of-type {
+    font-weight: bold;
+    font-size:xx-large;
+    font-variant: small-caps;
+    text-shadow: 0 0 6px #ffffff;
+    text-shadow: 0 0 6px rgba(255,255,255,0.7);
+}
+
+.microservices-custom-Header span:first-of-type + span {
+    font-weight: bold;
+    font-size: x-large;
+    color: #547f00;
+    text-shadow: 0 0 6px #547f00;
+}
+
+.microservices-custom-Header span:first-of-type + span + span {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+}
+    /* ReSharper restore CssBrowserCompatibility */
+
+/* ReSharper disable once Html.TagNotResolved */
+.microservices-custom-Header .custom-color {
+    color: #547f00;
+}
