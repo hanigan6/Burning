@@ -1,0 +1,22 @@
+### Burning River Softworks General Ignore ###
+
+### Code ###
+# Visual Studio Code - https://code.visualstudio.com/
+.settings/
+.vscode/
+tsconfig.json
+jsconfig.json
+
+### End Code ###
+
+*.Publish
+*.logs
+
+# Authentication #
+## AuthApi ##
+Authentication/AuthApi/bin/
+Authentication/AuthApi/obj/
+Authentication/Test/
+
+
+
